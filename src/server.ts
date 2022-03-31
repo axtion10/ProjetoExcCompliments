@@ -44,6 +44,8 @@ return response.status(503).json({
 
 app.listen(4500, () => console.log("Server is running"));
 
+export { app };
+
 
 
 
